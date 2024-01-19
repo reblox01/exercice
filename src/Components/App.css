@@ -1,0 +1,23 @@
+/* App.css */
+.cart-slide {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #f8f9fa;
+  box-shadow: -2px 0px 5px 0px #ccc;
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart-slide.show {
+  transform: translateX(0);
+}
+
+body a{
+  text-decoration: none !important;
+}
